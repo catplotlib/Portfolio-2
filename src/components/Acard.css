@@ -1,0 +1,21 @@
+.rectangle-a {
+  height: 40%;
+  background-color: #fff;
+  box-shadow: 5px 3px 9px rgb(105, 105, 105);
+  border: #6f6077 solid 2px;
+  font-size: 30px;
+  padding: 10px 10px;
+  cursor: pointer;
+  color: #6f6077;
+  display: flex;
+  font-family: "Pacifico";
+  min-width: 100%;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .rectangle-a {
+    font-size: 20px;
+    width: 100%;
+  }
+}

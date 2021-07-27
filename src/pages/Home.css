@@ -1,0 +1,41 @@
+.container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.container-a {
+  display: flex;
+  margin: 80px;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.container-p {
+  display: flex;
+  margin: 80px;
+  justify-content: center;
+  gap: 40px;
+  align-items: flex-start;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.cat {
+  position: absolute;
+  height: 100px;
+  top: 140px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin-top: 50px;
+  }
+  .container-a {
+    margin: 20px;
+  }
+}

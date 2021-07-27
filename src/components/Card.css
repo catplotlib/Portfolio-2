@@ -1,0 +1,23 @@
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #fff;
+  box-shadow: 5px 3px 9px rgb(105, 105, 105);
+  border: #6f6077 solid 2px;
+  font-size: 60px;
+  padding: 10px 10px;
+  cursor: pointer;
+  color: #6f6077;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pacifico";
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .rectangle {
+    font-size: 30px;
+    
+  }
+}

@@ -1,0 +1,55 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    background-color: white;
+    border: #6f6077 2px solid;
+    font-family: roboto;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+  }
+  
+  .pcontainer {
+    padding: 2px 16px;
+    font-size: 16px;
+  }
+  
+  .p-img {
+    padding-top: 40px;
+    height: 180px;
+    width: 300px;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    /* For tablets: */
+    .p-img {
+      height: 100px;
+      width: 150px;
+    }
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+  }
+  .btn {
+    margin: 10px;
+    background-color: #6f6077;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #937f9e;
+  }
+  

@@ -1,0 +1,72 @@
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #00a087;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  align-items: center;
+  background: #cdb4db;
+  font-weight: 300;
+  height: 70px;
+  border-bottom: #6f6077 solid 4px;
+}
+
+.dot {
+  border: #6f6077 solid 4px;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
+  height: 90px;
+  width: 90px;
+  background-color: #ffafcc;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.navbar__item {
+  font-size: 1.4rem;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.text-link:hover {
+  font-size: 110%;
+}
+.dot:hover {
+  height: 100px;
+  width: 100px;
+  font-size: 55px;
+}
+.icons {
+  height: 30px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .navbar {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .navbar__item {
+    font-size: 1.9rem;
+    padding: 16px 16px;
+    cursor: pointer;
+  }
+}
