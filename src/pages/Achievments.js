@@ -1,18 +1,23 @@
 import React from "react";
 import Acard from "../components/Acard";
 
-const text = [{ t1: "hELLO ,HOW AR YOU? ", t2: " \n I am good." }];
+import { IconContext } from "react-icons";
+import { GiSkills } from "react-icons/gi";
 
 const Achievments = () => {
   return (
     <>
-      <h1>My Skills</h1>
+      <h1>
+        <IconContext.Provider value={{ color: "#cdb4db", size: "3rem" }}>
+          My skills <GiSkills />
+        </IconContext.Provider>
+      </h1>
       <div className="container-a">
         <Acard>
           <div>
             <p>
-              Frontend Skills: React, React Native, Javascript, jQuery,
-              Gatsby,saas,html,css
+              Frontend Skills: React, React Native, Javascript, jQuery, Gatsby,
+              SaaS, Html, Css
             </p>
             <p>Backend Skills: Nodejs, Expressjs, MongoDB</p>
           </div>

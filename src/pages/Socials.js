@@ -6,7 +6,7 @@ const Socials = () => {
     <div>
       <h1>My Socials</h1>
       <IconContext.Provider value={{ color: "#6f6077", size: "3rem" }}>
-        <div className="container-p">
+        <div className="container-s">
           <a href="https://twitter.com/CatPlotLib">
             <GrTwitter />
           </a>
