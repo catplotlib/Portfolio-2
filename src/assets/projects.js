@@ -10,7 +10,7 @@ const projects = [
   },
   {
     id: 2,
-    img: "https://i.ibb.co/Pc77YQw/project7.png",
+    img: "https://i.ibb.co/sHpTnhn/project2.png",
     title: "The Movie Quiz (React-Native)",
     description:
       "A simple app with minimal UI for a quiz application on movies.",
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     id: 3,
-    img: "https://i.ibb.co/sHpTnhn/project2.png",
+    img: "https://i.ibb.co/Pc77YQw/project7.png",
     title: "Stardew Valley (React)",
     description:
       "A mini-project developed from scratch showcasing information about the RPG game-Stardew Valley. Made completely in React and styled in CSS.",
