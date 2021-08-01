@@ -10,7 +10,7 @@ const projects = [
   },
   {
     id: 2,
-    img: "https://i.ibb.co/sHpTnhn/project2.png",
+    img: "https://i.ibb.co/Pc77YQw/project7.png",
     title: "The Movie Quiz (React-Native)",
     description:
       "A simple app with minimal UI for a quiz application on movies.",
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     id: 3,
-    img: "https://i.ibb.co/Pc77YQw/project7.png",
+    img: "https://i.ibb.co/ByVXtJy/project1.png",
     title: "Stardew Valley (React)",
     description:
       "A mini-project developed from scratch showcasing information about the RPG game-Stardew Valley. Made completely in React and styled in CSS.",
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     id: 4,
-    img: "https://i.ibb.co/ByVXtJy/project1.png",
+    img: " https://i.ibb.co/sHpTnhn/project2.png ",
     title: "BarTinder (ejs)",
     description:
       "A completely responsive and dynamic Full stack Express.js Webapp that recommends cocktails based on filters!",
@@ -47,7 +47,7 @@ const projects = [
   {
     id: 6,
     img: "https://i.ibb.co/rtCS998/project4.png",
-    title: "Product Catalogue (React)",
+    title: "Shopping list app",
     description:
       "A notebook-style shopping list app with edit and delete features, made in react.",
     url: "https://our-shopping-list.netlify.app/",
