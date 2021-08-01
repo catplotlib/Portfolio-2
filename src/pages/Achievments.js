@@ -17,9 +17,9 @@ const Achievments = () => {
           <div>
             <p>
               Frontend Skills: React, React Native, Javascript, jQuery, Gatsby,
-              SaaS, Html, Css
+              Next, SaaS, Html, CSS
             </p>
-            <p>Backend Skills: Nodejs, Expressjs, MongoDB</p>
+            <p>Backend Skills: Nodejs, Expressjs, MongoDB, Django,Python</p>
           </div>
         </Acard>
       </div>
